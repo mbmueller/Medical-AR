@@ -589,6 +589,7 @@ GameObject:
   - component: {fileID: 992777190}
   - component: {fileID: 992777189}
   - component: {fileID: 992777188}
+  - component: {fileID: 992777191}
   m_Layer: 0
   m_Name: Tip
   m_TagString: Untagged
@@ -689,6 +690,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992777186}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &992777191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992777186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d831553b22f1a7247b5d6d884eebc258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  targets:
+  - {fileID: 1039773856}
+  - {fileID: 626819601}
+  - {fileID: 1539646244}
+  success: {r: 0, g: 1, b: 0.20087361, a: 0}
+  intervalStart: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  intervalEnd: {r: 0, g: 0, b: 1, a: 1}
 --- !u!1 &1039773856
 GameObject:
   m_ObjectHideFlags: 0
