@@ -31,15 +31,17 @@ public class DistanceBehaviour : MonoBehaviour
         GameObject next = targets[nextTarget];
 
         float distance = Vector3.Distance(transform.position, next.transform.position);
-        Console.WriteLine(distance);
+        Debug.Log(distance);
         if (distance < distanceThreshold) {
-            Console.WriteLine("Reached Target, Go to next");
+            Debug.Log("Reached Target, Go to next");
             nextTarget++;
             return;
         }
 
-        float t = Mathf.Clamp01(distance / maxDistance);
+        float t = Mathf.InverseLerp(0f, maxDistance, distance);
 
-        next.GetComponent<Renderer>().material.color = Color.Lerp(intervalStart, intervalEnd, t);
+        Color nextColor = Color.Lerp(intervalEnd, intervalStart, t);
+        Debug.Log(nextColor);
+        next.GetComponent<Renderer>().material.color = nextColor;
     }
 }
