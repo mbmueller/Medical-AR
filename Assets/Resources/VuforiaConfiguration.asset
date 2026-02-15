@@ -17,12 +17,12 @@ MonoBehaviour:
     ufoLicenseKey: QVhmZ05mci8vLy8vQUFBQUtQUUZsN0pHbjBINW5qdnBYSWtoUHNZaVdYdG1YdXFqVEwvaThQNGQwRzNVSGFLYlNzK2UvSlFnSklBKysvODFGc2hqUDdORkRpWFl4cXF0akNnK3JGT3VlSVdRRDg2bjRxTFVkRmtVT3RVaEl3UkZQclYxZ2FQc1VYK0h2WXBrZmorL2dkRHBTbElkRVpPbTJpeVBXb0l4bnNlUm5tNHV0TGdoT0plWjlkcEV4ZUlaZDg2NUZQd1JVUmxuK0hiYWlsV202RVRpOXZYc1dvZ2U1aUwrSGxySGhaZzFBS3g3ZVB0M2hPb0RDcStuWVQxMU56Y2VTbWIrVjJNL2xJdW5SZ1FYaE41Z0lJQUdja1BvV0tLUFlrZUFpYnZRMlBSbTVHR1Rta3ZEM0J1RGY4anNZK01JdFNlUWw0MkF0VXc0SDFXa0U2d3ArejRGUC9TYnFDWHBCRDBMNGxSWGsxeVI2aFVIaEVSYmFoMlU=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
-    cameraDeviceModeSetting: -1
+    cameraDeviceModeSetting: -3
     maxSimultaneousImageTargets: 2
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
-    logLevel: 0
+    logLevel: 1
     version: 11.4.4
     eulaAcceptedVersions: '{"Values":["11.4"]}'
   database:
