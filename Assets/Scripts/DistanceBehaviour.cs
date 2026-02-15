@@ -20,7 +20,7 @@ public class DistanceBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < nextTarget && nextTarget < targets.Length; i++) {
+        for (int i = 0; i < nextTarget && nextTarget <= targets.Length; i++) {
             targets[i].GetComponent<Renderer>().material.color = success;
         }
 
@@ -40,6 +40,6 @@ public class DistanceBehaviour : MonoBehaviour
 
         float t = Mathf.Clamp01(distance / maxDistance);
 
-        next.GetComponent<Renderer>().material.color = Color.Lerp(intervalEnd, intervalStart, t);
+        next.GetComponent<Renderer>().material.color = Color.Lerp(intervalStart, intervalEnd, t);
     }
 }
